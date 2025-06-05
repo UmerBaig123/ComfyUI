@@ -7,7 +7,7 @@ from aiohttp import web
 import json
 import logging
 from functools import lru_cache
-
+import sys
 sys.path.insert(0, "/root/comfy/ComfyUI")
 from utils.json_util import merge_json_recursive
 
