@@ -8,7 +8,8 @@ import json
 import logging
 from functools import lru_cache
 
-from ..utils.json_util import merge_json_recursive
+sys.path.insert(0, "/root/comfy/ComfyUI")
+from utils.json_util import merge_json_recursive
 
 print(sys.path)
 # Extra locale files to load into main.json
